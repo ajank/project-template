@@ -1,0 +1,20 @@
+---
+title: 'Some test analysis'
+author: 'Aleksander Jankowski'
+date: '`r sub("^0", "", format(Sys.time(), "%d %B %Y"))`'
+output: html_document
+---
+> Compile with `Rscript -e 'rmarkdown::render("src/Rmd/test_report.Rmd")'`
+
+It would be nice to write something more about the analysis here.
+
+```{r, echo=FALSE, message=FALSE}
+library(data.table)
+library(ggplot2)
+```
+
+```{r, echo=FALSE, message=FALSE}
+p <- ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, colour = Species)) + 
+  geom_point()
+print(p)
+```
