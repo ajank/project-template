@@ -37,3 +37,9 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Snakemake files
+.snakemake/
+
+# Directory for temporary files (preferably a symbolic link to some scratch location)
+tmp/
