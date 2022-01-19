@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=3.6.3
+  - r-data.table=1.12.8
+  - r-yaml=2.2.0
