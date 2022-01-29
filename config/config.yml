@@ -6,7 +6,7 @@ paths:
   projectpath: /home/ajank/project_template
   datadir: data
   genomedatadir: data/genome
-  analysisdir: analysis
+  resultsdir: results
   configdir: config
   envdir: env
   tmpdir: tmp
